@@ -1,0 +1,76 @@
+.home-page {
+  font-family: cursive;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: grid;
+  grid-template-rows: repeat(1, 29rem);
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 19rem));
+  grid-row-gap: 5rem;
+  grid-column-gap: 7.3rem;
+  grid-auto-rows: 29rem;
+}
+
+
+.card-div{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.card1-div{
+  width: 30%;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.flex-sec{
+  display: flex;
+}
+
+.sec1{
+  flex: 1;
+}
+
+.image-sec{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 12rem;
+}
+
+.btn{
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 13px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: linear-gradient(to right, red ,rgba(247, 90, 17, 0.904), rgb(238, 130, 8));
+  border-color: transparent;
+  color: white;
+}
+
+
+@media (max-width: 399px) {
+  .home-page {
+    font-family: cursive;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-rows: repeat(1, 29rem);
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 19rem));
+    grid-row-gap: 3rem;
+    grid-column-gap: 7.3rem;
+    grid-auto-rows: 29rem;
+  }
+
+}
